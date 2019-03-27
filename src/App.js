@@ -26,7 +26,13 @@ function App() {
             </li>
           </ul>
         </header>
-        {/* <Main /> */}
+        <main>
+          <h1>Vaiva</h1>
+          <p>
+            The world as we have created it is a process of our thinking. It
+            cannot be changed without changing our thinking. -Albert Einstein
+          </p>
+        </main>
       </section>
       {/* <Footer /> */}
     </React.Fragment>
