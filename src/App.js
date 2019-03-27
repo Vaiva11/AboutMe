@@ -1,28 +1,36 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+function App() {
+  return (
+    <React.Fragment>
+      <section className="App">
+        <header>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Work</li>
+            <li>Contact</li>
+          </ul>
+          <ul>
+            <li>
+              <a href="https://github.com/Vaiva11">
+                <FaGithub />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/feed">
+                <FaLinkedinIn />
+              </a>
+            </li>
+          </ul>
         </header>
-      </div>
-    );
-  }
+        {/* <Main /> */}
+      </section>
+      {/* <Footer /> */}
+    </React.Fragment>
+  );
 }
 
 export default App;
