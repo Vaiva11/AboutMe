@@ -6,10 +6,18 @@ function Header() {
   return (
     <header>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Work</li>
-        <li>Contact</li>
+        <li>
+          <a href="/home">Home</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/work">Work</a>
+        </li>
+        <li>
+          <a href="/contact">Contack</a>
+        </li>
       </ul>
       <ul>
         <li>

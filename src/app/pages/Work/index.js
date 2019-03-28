@@ -4,16 +4,7 @@ import '../index.scss';
 import { Header, Main, Footer } from '../../components';
 
 function Work() {
-  return (
-    <React.Fragment>
-      <div className="All">
-        <Header />
-        <Main />
-        My workkk
-        <Footer />
-      </div>
-    </React.Fragment>
-  );
+  return <React.Fragment>Work</React.Fragment>;
 }
 
 export default Work;

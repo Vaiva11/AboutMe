@@ -4,16 +4,7 @@ import '../index.scss';
 import { Header, Main, Footer } from '../../components';
 
 function About() {
-  return (
-    <React.Fragment>
-      <div className="All">
-        <Header />
-        <Main />
-        Here is about me
-        <Footer />
-      </div>
-    </React.Fragment>
-  );
+  return <React.Fragment>About</React.Fragment>;
 }
 
 export default About;
