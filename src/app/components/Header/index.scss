@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: pink;
+  padding: 25px;
+  text-shadow: 2px 2px 5px rgb(90, 90, 90);
+
+  ul {
+    display: flex;
+
+    li {
+      margin: 0 10px 0 10px;
+      font-size: 20px;
+
+      svg {
+        color: black;
+        transition: color 0.2s linear;
+
+        &:hover {
+          color: grey;
+        }
+      }
+    }
+  }
+}
