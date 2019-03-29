@@ -1,9 +1,9 @@
 .All {
-  width: 100%;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   margin: 0 auto;
+  width: 100%;
+  height: 100vh;
 
   main {
     text-align: center;
@@ -11,6 +11,5 @@
     justify-content: center;
     flex-direction: column;
     flex-grow: 1;
-    background-color: aliceblue;
   }
 }

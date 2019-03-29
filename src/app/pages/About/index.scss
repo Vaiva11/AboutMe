@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  padding: 20px 0 20px 0;
+
+  h1 {
+    width: 40%;
+    text-align: end;
+    padding-right: 40px;
+    margin: 0 auto;
+    font-size: 25px;
+  }
+
+  #box {
+    width: 60%;
+    text-align: start;
+    padding-left: 40px;
+    line-height: 1.5em;
+
+    h2 {
+      font-weight: bold;
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    #year {
+      color: rgb(77, 77, 77);
+      font-style: italic;
+      font-size: 16px;
+    }
+
+    h3 {
+      font-weight: bold;
+    }
+
+    p {
+      margin-bottom: 30px;
+    }
+  }
+}
