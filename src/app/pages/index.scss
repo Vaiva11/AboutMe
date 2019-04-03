@@ -3,7 +3,9 @@
   flex-direction: column;
   margin: 0 auto;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
+  background-image: url('../pages/Home/image/back4.jpg');
+  background-size: cover;
 
   main {
     text-align: center;

@@ -2,7 +2,6 @@ header {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  background-color: pink;
   padding: 25px;
   text-shadow: 2px 2px 5px rgb(90, 90, 90);
 
@@ -16,11 +15,12 @@ header {
       a,
       svg {
         text-decoration: none;
-        color: black;
+        color: #3b3a57;
         transition: color 0.2s linear;
 
         &:hover {
-          color: grey;
+          color: white;
+          text-shadow: 2px 2px 5px white;
         }
       }
     }

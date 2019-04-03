@@ -1,0 +1,50 @@
+.contactContainer {
+  margin: 0 auto;
+
+  #form {
+    li {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin: 0 0 20px 0;
+
+      #fullName {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      span {
+        display: block;
+        width: 100%;
+      }
+
+      textarea {
+        height: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+
+    button,
+    input,
+    textarea {
+      padding: 8px;
+      margin: 10px 0 20px 0;
+      border: solid #8a99bc 2px;
+      background-color: white;
+      color: black;
+      border-radius: 8px;
+      font-size: 100%;
+    }
+
+    button:hover {
+      background-color: #8a99bc;
+      border: solid rgb(255, 255, 255) 2px;
+      color: white;
+      transition: 0.3s;
+    }
+  }
+}
+h1 {
+  font-size: 25px;
+}
