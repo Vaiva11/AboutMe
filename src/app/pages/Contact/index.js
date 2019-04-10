@@ -15,7 +15,7 @@ class Contact extends React.Component {
   handleChange = event => {
     console.log(event.target.value);
     this.setState({
-      [firstName]: value,
+      firstName: event.target.firstName,
       lastName: event.target.lastName,
       email: event.target.email,
       message: event.target.message,

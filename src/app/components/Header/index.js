@@ -1,22 +1,23 @@
 import React from 'react';
 import './index.scss';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { Link, BrowserRouter as Router } from 'react-router-dom';
 
 function Header() {
   return (
     <header>
       <ul>
         <li>
-          <a href="/home">Home</a>
+          <Link to="/home">Home</Link>
         </li>
         <li>
-          <a href="/about">About</a>
+          <Link to="/about">About</Link>
         </li>
         <li>
-          <a href="/work">Work</a>
+          <Link to="/work">Work</Link>
         </li>
         <li>
-          <a href="/contact">Contack</a>
+          <Link to="/contact">Contack</Link>
         </li>
       </ul>
       <ul>
@@ -31,7 +32,7 @@ function Header() {
           </a>
         </li>
       </ul>
-    </header>
+    </header >
   );
 }
 

@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  text-align: center;
+  margin: 0 auto;
+
+  a {
+    text-decoration: none;
+  }
+
+  .workBox {
+    background-color: rgba(26, 26, 26, 0.5);
+    height: 35vh;
+    width: 15vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+      text-decoration: none;
+      color: white;
+      height: 100%;
+      width: 60%;
+    }
+
+    span {
+      display: none;
+      font-size: 3em;
+    }
+
+    &:hover {
+      color: white;
+
+      svg {
+        display: none;
+      }
+      span {
+        display: block;
+        animation: fade 1s;
+      }
+    }
+  }
+  .workBox:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
